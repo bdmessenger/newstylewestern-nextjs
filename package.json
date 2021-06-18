@@ -12,11 +12,18 @@
     "@chakra-ui/react": "^1.6.4",
     "@emotion/react": "^11.4.0",
     "@emotion/styled": "^11.3.0",
+    "@stripe/react-stripe-js": "^1.4.1",
+    "@stripe/stripe-js": "^1.15.0",
+    "firebase": "^8.6.8",
+    "formik": "^2.2.9",
     "framer-motion": "^4.1.17",
     "next": "11.0.0",
     "react": "17.0.2",
     "react-dom": "17.0.2",
-    "stripe": "^8.156.0"
+    "react-helmet-async": "^1.0.9",
+    "react-icons": "^4.2.0",
+    "stripe": "^8.156.0",
+    "yup": "^0.32.9"
   },
   "devDependencies": {
     "eslint": "7.28.0",
