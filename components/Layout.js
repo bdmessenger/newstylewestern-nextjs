@@ -1,5 +1,6 @@
 import Head from 'next/head'
 import { Box, Container} from '@chakra-ui/react'
+import Header from './Header'
 
 
 function Layout({children, title, description, keywords}) {
@@ -10,6 +11,9 @@ function Layout({children, title, description, keywords}) {
                 <meta name="description" content={description} />
                 <meta name="keywords" content={keywords} />
             </Head>
+
+            <Header/>
+            
             <Container maxW="container.xl" marginY={5}>
                 {children}
             </Container>
